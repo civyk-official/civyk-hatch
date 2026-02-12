@@ -43,11 +43,7 @@ Civyk Hatch Advanced is a **command-line toolkit** that brings structure to AI-a
 ### Installation
 
 ```bash
-# Recommended: Install with pipx (isolated environment)
-pipx install git+https://github.com/civyk-official/civyk-hatch.git
-
-# Alternative: Install with pip
-pip install git+https://github.com/civyk-official/civyk-hatch.git
+pip install civyk-hatch
 ```
 
 ### Initialize Project
