@@ -1,10 +1,14 @@
-# Civyk Hatch
+# Civyk Hatch Advanced
 
 > **AI-Powered Spec-Driven Development** — Transform how you build software with structured specifications, automated workflows, and intelligent code analysis.
 
-[![Build](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/civyk-official/civyk-hatch/actions)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: Proprietary](https://img.shields.io/badge/License-Proprietary-red.svg)](LICENSE)
+[![MCP Compatible](https://img.shields.io/badge/MCP-Compatible-purple.svg)](https://modelcontextprotocol.io/)
+[![PyPI](https://img.shields.io/pypi/v/civyk-hatch.svg)](https://pypi.org/project/civyk-hatch/)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/civyk-official/civyk-hatch/badge)](https://securityscorecards.dev/viewer/?uri=github.com/civyk-official/civyk-hatch)
+[![Sigstore](https://img.shields.io/badge/Sigstore-signed-blue.svg)](https://sigstore.dev/)
+[![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://slsa.dev)
 
 ---
 
@@ -43,7 +47,11 @@ Civyk Hatch Advanced is a **command-line toolkit** that brings structure to AI-a
 ### Installation
 
 ```bash
-pip install civyk-hatch
+# Recommended: Install with pipx (isolated environment)
+pipx install git+https://github.com/civyk-official/civyk-hatch.git
+
+# Alternative: Install with pip
+pip install git+https://github.com/civyk-official/civyk-hatch.git
 ```
 
 ### Initialize Project
