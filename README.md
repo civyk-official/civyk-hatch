@@ -6,7 +6,6 @@
 [![License: Proprietary](https://img.shields.io/badge/License-Proprietary-red.svg)](LICENSE)
 [![MCP Compatible](https://img.shields.io/badge/MCP-Compatible-purple.svg)](https://modelcontextprotocol.io/)
 [![PyPI](https://img.shields.io/pypi/v/civyk-hatch.svg)](https://pypi.org/project/civyk-hatch/)
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/civyk-official/civyk-hatch/badge)](https://securityscorecards.dev/viewer/?uri=github.com/civyk-official/civyk-hatch)
 [![Sigstore](https://img.shields.io/badge/Sigstore-signed-blue.svg)](https://sigstore.dev/)
 [![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://slsa.dev)
 
