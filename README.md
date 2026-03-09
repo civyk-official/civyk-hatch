@@ -47,10 +47,10 @@ Civyk Hatch Advanced is a **command-line toolkit** that brings structure to AI-a
 
 ```bash
 # Recommended: Install with pipx (isolated environment)
-pipx install git+https://github.com/civyk-official/civyk-hatch.git
+pipx install civyk-hatch
 
 # Alternative: Install with pip
-pip install git+https://github.com/civyk-official/civyk-hatch.git
+pip install civyk-hatch
 ```
 
 ### Initialize Project
@@ -168,7 +168,7 @@ Generates comprehensive wiki from code:
 - Component breakdowns
 - Configuration guides
 
-Requires [civyk-repoix](https://github.com/civyk/repoix) MCP server for codebase indexing.
+Requires [civyk-repoix](https://github.com/civyk-official/civyk-repoix) MCP server for codebase indexing.
 
 ### Quality Enforcement
 
@@ -293,15 +293,7 @@ Use `--ai <agent>` during init: `claude`, `copilot`, `cursor-agent`, `gemini`, `
 
 ## Documentation
 
-| Document | Description |
-|----------|-------------|
-| [Getting Started](docs/getting-started.md) | Complete installation & tutorial |
-| [CLI Reference](docs/reference/cli-reference.md) | All commands with examples |
-| [Orchestrator Guide](docs/workflows/orchestrator.md) | Automated workflow details |
-| [Reverse Engineering](docs/reverse-engineering.md) | Legacy analysis guide |
-| [Troubleshooting](docs/reference/troubleshooting.md) | Common issues & solutions |
-| [Spec-Driven Methodology](spec-driven.md) | Underlying methodology |
-| [AGENTS.md](AGENTS.md) | AI agent guidelines (v4.7) |
+Run `civyk-hatch --help` for the complete command reference. Detailed documentation is included in the installed package.
 
 ---
 
@@ -463,5 +455,3 @@ Proprietary — see [LICENSE](LICENSE) for details.
 ---
 
 *Built on Trust, Driven by Value*
-
-[Get Started](docs/getting-started.md) • [CLI Reference](docs/reference/cli-reference.md) • [Orchestrator](docs/workflows/orchestrator.md)
